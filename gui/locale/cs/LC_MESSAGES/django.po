@@ -13230,3 +13230,67 @@ msgstr ""
 "Příkaz sloužící k vypnutí serveru. V jeho rámci je možné začlenit své "
 "vlastní příkazy, které provést před vypnutím. Pokud není zadáno, bude "
 "použito výchozí: /sbin/shutdown -p now"
+
+#: account/forms.py:500
+msgid ""
+"Passwords containing a question mark (?) are currently not allowed due to "
+"problems with CIFS."
+msgstr ""
+"Hesla obsahující znak „?“ (otazník) není v současnosti možné používat a to z "
+"důvodu problémů při použití s CIFS sdíleními."
+
+#: services/forms.py:106
+msgid "The CIFS service failed to reload."
+msgstr "Znovunačtení služby CIFS se nezdařilo."
+
+#: services/models.py:167
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+"Tato rozšíření umožňují službě Samba lépe obsluhovat unixové CIFS klienty "
+"poskytnutím funkcí jako jsou symbolické a pevné odkazy, atd…"
+
+#: services/models.py:189
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+"Technologie Zeroconf (zde implementovaná službou Avahi) umožňuje klientům ("
+"konkrétně aplikaci finder v Mac OS X) automaticky objevit CIFS sdílení, "
+"nabízené systémem – podobně jako je tomu u služby Procházení počítačů v "
+"systému Windows."
+
+#: services/models.py:193
+#: services/models.py:194
+#: templates/services/core.html:26
+msgid "CIFS"
+msgstr "CIFS"
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Windows (CIFS) sdílení"
+
+#: sharing/models.py:95
+msgid "Windows (CIFS) Shares"
+msgstr "Windows (CIFS) sdílení"
+
+#: services/forms.py:95
+msgid "Cannot disable CIFS while ActiveDirectory is in use."
+msgstr "Službu CIFS nelze vypnout, pokud zapnutá služba ActiveDirectory."
+
+#: services/views.py:269
+msgid "CIFS successfully updated."
+msgstr "CIFS bylo úspěšně zaktualizováno"
+
+#: templates/services/core.html:32
+msgid "CIFS Settings"
+msgstr "Nastavení služby CIFS"
+
+#: templates/sharing/index.html:12
+msgid "Windows (CIFS)"
+msgstr "Windows (CIFS)"
+
+msgid "Add Apple (CIFS) Share"
+msgstr "Přidat Apple (CIFS) sdílení"

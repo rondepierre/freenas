@@ -13620,3 +13620,18 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "Službu CIFS sa nepodarilo načítať."
+
+#: services/models.py:223
+#: services/models.py:224
+#: storage/forms.py:2039
+#: templates/services/core.html:15
+msgid "CIFS"
+msgstr "CIFS"
+
+#: templates/services/core.html:21
+msgid "CIFS Settings"
+msgstr "CIFS Nastavenia"

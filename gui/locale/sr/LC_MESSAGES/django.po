@@ -13301,3 +13301,48 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "CIFS servis nije uspeo da se ponovo učita."
+
+#: services/models.py:179
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+"Ovi dodaci omogućavaju da Samba bolje služiti UNIX CIFS klijentima "
+"podržavajući funkcije kao što su simboličke veze, čvrste vezama, itd..."
+
+#: services/models.py:208
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+"Zeroconf podrška preko Avahi omogućava klijentima (Mac OSX Finder posebno) "
+"da automatski otkrije CIFS deljene resurse na sistemu sličnih Computer "
+"Browser servisa u Windows sistemu."
+
+#: services/models.py:223
+#: services/models.py:224
+#: storage/forms.py:2039
+#: templates/services/core.html:15
+msgid "CIFS"
+msgstr "CIFS"
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Windows (CIFS) deljeni resurs"
+
+#: sharing/models.py:95
+msgid "Windows (CIFS) Shares"
+msgstr "Windows (CIFS) deljeni resurs"
+
+#: templates/services/core.html:21
+msgid "CIFS Settings"
+msgstr "CIFS podešavanja"
+
+#: templates/sharing/index.html:15
+msgid "Windows (CIFS)"
+msgstr "Windows (CIFS)"

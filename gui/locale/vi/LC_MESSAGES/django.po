@@ -12875,3 +12875,7 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: templates/services/core.html:21
+msgid "CIFS Settings"
+msgstr "Thiết lập CIFS"

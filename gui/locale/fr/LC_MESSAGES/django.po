@@ -13734,3 +13734,60 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: account/forms.py:500
+msgid ""
+"Passwords containing a question mark (?) are currently not allowed due to "
+"problems with CIFS."
+msgstr ""
+"Les mots de passe contenant un point d'interrogation (?) ne sont "
+"actuellement pas autorisés à cause de problèmes avec CIFS."
+
+#: services/forms.py:106
+msgid "The CIFS service failed to reload."
+msgstr "Le rechargement du service CIFS a échoué."
+
+#: services/models.py:167
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+"Ces extensions permettent à Samba de mieux servir les clients CIFS UNIX en "
+"supportant des fonctionnalités telles que les liens symboliques, liens "
+"physiques, etc ..."
+
+#: services/models.py:189
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+"Le support zeroconf via Avahi permet aux clients (le finder MAC OSX en "
+"particulier) de découvrir automatique des partages CIFS du système de façon "
+"similaire au service \"Explorateur d'ordinateurs\" de Windows."
+
+#: services/models.py:193
+#: services/models.py:194
+#: templates/services/core.html:26
+msgid "CIFS"
+msgstr "CIFS"
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Partage Windows (CIFS)"
+
+#: sharing/models.py:95
+msgid "Windows (CIFS) Shares"
+msgstr "Partages Windows (CIFS)"
+
+#: services/views.py:269
+msgid "CIFS successfully updated."
+msgstr "CIFS a été mis à jour avec succès."
+
+#: templates/services/core.html:32
+msgid "CIFS Settings"
+msgstr "Paramètres CIFS"
+
+#: templates/sharing/index.html:12
+msgid "Windows (CIFS)"
+msgstr "Windows (CIFS)"

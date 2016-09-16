@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-04 02:10-0700\n"
-"PO-Revision-Date: 2016-09-11 16:43+0200\n"
+"PO-Revision-Date: 2016-09-15 09:51+0000\n"
 "Last-Translator: BouRock <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Pootle 2.1.6\n"
-"X-POOTLE-MTIME: 1469291159.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1473933070.0\n"
 
 #~ msgid "Reporting"
 #~ msgstr "Raporlama"
@@ -349,7 +349,7 @@ msgstr "Sihirbaz"
 
 #: freeadmin/static/lib/js/freeadmin/WizardShares.js:242
 msgid "Paswords do not match."
-msgstr ""
+msgstr "Parolalar eşleşmiyor."
 
 #: freeadmin/static/lib/js/freeadmin.js:374
 msgid "Warning!"
@@ -373,7 +373,7 @@ msgstr "Elle Kurulum"
 
 #: freeadmin/static/lib/js/freeadmin/Update.js:82
 msgid "Check For Updates"
-msgstr ""
+msgstr "Güncellemeleri Kontrol Et"
 
 #: freeadmin/static/lib/js/freeadmin/Update.js:86
 msgid "Apply Pending Updates"
@@ -394,7 +394,7 @@ msgstr "Parola boş olamaz."
 #: freeadmin/static/lib/js/freeadmin/Update.js:79
 #: freeadmin/static/lib/js/freeadmin/Update.js:81
 msgid "Manual Update"
-msgstr ""
+msgstr "Elle Güncelleme"
 
 #: freeadmin/static/lib/js/freeadmin/Update.js:88
 #: freeadmin/static/lib/js/freeadmin/Update.js:90
@@ -572,7 +572,7 @@ msgstr "Bekleyen Güncellemeler"
 
 #: freeadmin/static/lib/js/freeadmin/Menu.js:185
 msgid "vCenter Plugin Configuration"
-msgstr "vCenter Eklenti Yapılandırması"
+msgstr "vCenter Eklentisi Yapılandırması"
 
 #: freeadmin/static/lib/js/freeadmin.js:1343
 msgid "Decreasing WebGUI https security!"

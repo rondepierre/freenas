@@ -12691,3 +12691,7 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "дахин ачааллахад CIFS сервист алдаа гарлаа"

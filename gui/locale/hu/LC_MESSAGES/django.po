@@ -13284,3 +13284,25 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: account/forms.py:500
+msgid ""
+"Passwords containing a question mark (?) are currently not allowed due to "
+"problems with CIFS."
+msgstr ""
+"A CIFS korlátozásai miatt a kérdőjelet(?) tartalmazó jelszavak tiltottak."
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "Az CIFS szolgáltatás újraindítása nem sikerült."
+
+#: services/models.py:223
+#: services/models.py:224
+#: storage/forms.py:2039
+#: templates/services/core.html:15
+msgid "CIFS"
+msgstr "CIFS"
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Windows (CIFS) megosztás"

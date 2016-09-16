@@ -13719,3 +13719,40 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: services/forms.py:106
+msgid "The CIFS service failed to reload."
+msgstr "El servei CIFS ha fallat la recàrrega."
+
+#: services/models.py:193
+#: services/models.py:194
+#: templates/services/core.html:26
+msgid "CIFS"
+msgstr "CIFS"
+
+#: templates/services/core.html:32
+msgid "CIFS Settings"
+msgstr "Paràmetres CIFS"
+
+#: templates/sharing/windows.html:7
+msgid "There are no active Windows (CIFS) shares."
+msgstr "No hi ha cap finestra activa de compartició"
+
+#: templates/sharing/windows.html:33
+msgid "Edit Windows (CIFS) Share"
+msgstr "Editar finestra de compartició"
+
+#: templates/sharing/windows.html:39
+msgid "Delete Windows (CIFS) Share"
+msgstr "Eliminar finestra de compartició"
+
+#: templates/sharing/windows.html:53
+#: templates/sharing/windows.html.py:55
+msgid "Add Windows (CIFS) Share"
+msgstr "Afegir finestra de compartició"
+
+msgid "Add Apple (CIFS) Share"
+msgstr "Afegir Apple share"
+
+msgid "CIFS Share"
+msgstr "UNIX Share"

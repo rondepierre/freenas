@@ -13231,3 +13231,63 @@ msgstr ""
 "Команда, яка використовується для завершення роботи сервера. Ви можете "
 "використовувати призначену для користувача команду тут, щоб виконувати інші "
 "завдання перед shutdown.default: /sbin/shutdown -p now"
+
+#: account/forms.py:500
+msgid ""
+"Passwords containing a question mark (?) are currently not allowed due to "
+"problems with CIFS."
+msgstr "Паролі що містять знак питання (?) заборонені через проблеми з CIFS."
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "Службу CIFS не вдалося перезавантажити."
+
+#: services/models.py:179
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+"Ці розширення дозволяють Samba краще обслуговувати UNIX CIFS клієнтів "
+"завдяки підтримці символічних посилань, жорстких посилань і тд ..."
+
+#: services/models.py:208
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+"Підтримка Zeroconf через Avahi дозволяє клієнтам (зокрема, пошуку Mac OSX) "
+"автоматично знаходити спільні ресурси CIFS аналогічно службі Computer "
+"Browser в Windows."
+
+#: services/models.py:223
+#: services/models.py:224
+#: storage/forms.py:2039
+#: templates/services/core.html:15
+msgid "CIFS"
+msgstr "CIFS"
+
+#: services/forms.py:95
+msgid "Cannot disable CIFS while ActiveDirectory is in use."
+msgstr ""
+"Неможливо відключити CIFS в той час як Active Directory використовується."
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Спільний ресурс Windows (CIFS)"
+
+#: sharing/models.py:95
+msgid "Windows (CIFS) Shares"
+msgstr "Спільні ресурси Windows (CIFS)"
+
+#: services/views.py:269
+msgid "CIFS successfully updated."
+msgstr "CIFS успішно оновлено."
+
+#: templates/services/core.html:21
+msgid "CIFS Settings"
+msgstr "Налаштування CIFS"
+
+#: templates/sharing/index.html:15
+msgid "Windows (CIFS)"
+msgstr "Windows (CIFS)"

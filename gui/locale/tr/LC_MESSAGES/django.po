@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-04 02:05-0700\n"
-"PO-Revision-Date: 2016-09-11 16:43+0200\n"
+"PO-Revision-Date: 2016-09-15 10:05+0000\n"
 "Last-Translator: BouRock <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Pootle 2.1.6\n"
-"X-POOTLE-MTIME: 1469792686.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1473933929.0\n"
 
 #: choices.py:40
 msgid "Plain"
@@ -9019,7 +9019,7 @@ msgstr "LUN ID zaten var."
 
 #: services/models.py:109
 msgid "Use syslog"
-msgstr ""
+msgstr "Syslog kullan"
 
 #: services/models.py:233
 msgid "Server minimum protocol"
@@ -9070,7 +9070,7 @@ msgstr "UDP NFS istemcilere hizmet et"
 
 #: services/models.py:418
 msgid "Enable multithreaded mode"
-msgstr ""
+msgstr "Çok iş parçacıklı kipi etkinleştir"
 
 #: services/models.py:874
 msgid "LUN ID"
@@ -9085,6 +9085,8 @@ msgid ""
 "The client IP is detected by calling 'url' from this 'ip_server_name:port'. "
 "Defaults to checkip.dyndns.org:80 /."
 msgstr ""
+"Bu 'ip_sunucu_adı:b.noktası'ndan gelen 'url'yi çağırarak istemci IP'sini "
+"algıladı. Varsayılanı checkip.dyndns.org:80 /."
 
 #: services/models.py:1595
 msgid "Domain Account Name"
@@ -9104,7 +9106,7 @@ msgstr "Etki Alanı Hesabı parolası."
 
 #: services/models.py:1609
 msgid "Use keytab"
-msgstr ""
+msgstr "Keytab kullan"
 
 #: services/models.py:1613
 msgid "Kerberos keytab file"
@@ -9261,6 +9263,8 @@ msgid ""
 "You are trying to add a virtual device consisting of %(addnum)s device(s) in "
 "a pool that has a virtual device consisted of %(vdevnum)s device(s)"
 msgstr ""
+"%(vdevnum)s aygıttan oluşan bir sanal aygıta sahip bir havuz içinde %(addnum)"
+"s aygıttan oluşan bir sanal aygıtı eklemeye çalışıyorsunuz"
 
 #: storage/forms.py:597
 #: templates/storage/zfswizard.html:41
@@ -9424,7 +9428,7 @@ msgstr "Sistem Günlüğü"
 
 #: system/models.py:1142
 msgid "RRD"
-msgstr ""
+msgstr "RRD"
 
 #: system/models.py:1146
 #: templates/system/settings.html:11
@@ -9568,7 +9572,7 @@ msgstr ""
 
 #: network/admin.py:63
 msgid "Network connectivity will be interrupted"
-msgstr ""
+msgstr "Ağ bağlanabilirliği yarıda kesilecektir"
 
 #: services/models.py:117
 msgid "Domain logons"
@@ -9581,6 +9585,8 @@ msgstr "Ağ bağlanabilirliği kesilecektir. Devam etmek istiyor musunuz?"
 #: services/admin.py:67
 msgid "Enabling experimental target requires a reboot. Do you want to proceed?"
 msgstr ""
+"Deneysel hedefi etkinleştirmek yeniden başlatma gerektirir. Devam etmek "
+"istiyor musunuz?"
 
 #: services/forms.py:1381
 msgid "Extent name must be unique."
@@ -9588,7 +9594,7 @@ msgstr "Kapsam adı benzersiz olmak zorundadır."
 
 #: services/models.py:414
 msgid "Enable experimental target"
-msgstr ""
+msgstr "Deneysel hedefi etkinleştir"
 
 #: account/forms.py:500
 msgid ""
@@ -9676,11 +9682,11 @@ msgstr "SSL sertifikası"
 #: system/hook.py:22
 #: system/hook.py:24
 msgid "Performance Test"
-msgstr ""
+msgstr "Performans Denemesi"
 
 #: system/views.py:545
 msgid "System dataset is required to perform this action."
-msgstr ""
+msgstr "Sistem veri kümesi bu eylemi gerçekleştirmek için gerekir."
 
 #: templates/system/perftest.html:20
 msgid "You are about to start a performance test."
@@ -9707,6 +9713,8 @@ msgid ""
 "this parameter controls whether or not Sambashould obey PAM's account and "
 "session management directives"
 msgstr ""
+"Bu parametre Samba'nın PAM hesabı ve oturum yönetimi yönergelerine uyup "
+"uymaması gerektiğini kontrol eder"
 
 #: services/models.py:591
 msgid "NAA...used only by the initiator"
@@ -10153,19 +10161,19 @@ msgstr "Otomatik"
 
 #: system/forms.py:1227
 msgid "VMWare (RAID 10: Good Reliability, Good Performance)"
-msgstr ""
+msgstr "VMWare (RAID 10: İyi Güvenilirlik, İyi Performans)"
 
 #: system/forms.py:1231
 msgid "Backups (RAID Z2: Best Reliability, Less Storage)"
-msgstr ""
+msgstr "Yedeklemeler (RAID Z2: En İyi Performans, Az Depolama)"
 
 #: system/forms.py:1235
 msgid "Media (RAID Z1: Less Reliability, More Storage)"
-msgstr ""
+msgstr "Ortam (RAID Z1: Az Güvenilirlik, Daha Fazla Depolama)"
 
 #: system/forms.py:1239
 msgid "Logs (RAID 0: No Reliability, Max Performance / Storage)"
-msgstr ""
+msgstr "Günlükler (RAID 0: Güvenilirlik Yok, En Fazla Performans / Depolama)"
 
 #: system/forms.py:1441
 msgid "No available disks have been found."
@@ -10231,7 +10239,7 @@ msgstr "Bu isimde bir havuz zaten var."
 #: directoryservice/forms.py:341
 #: directoryservice/forms.py:448
 msgid "%s."
-msgstr ""
+msgstr "%s."
 
 #: directoryservice/forms.py:486
 #: directoryservice/models.py:700
@@ -10282,11 +10290,11 @@ msgstr ""
 
 #: directoryservice/models.py:581
 msgid "Principal"
-msgstr ""
+msgstr "Esas"
 
 #: directoryservice/models.py:583
 msgid "Kerberos principal, eg: primary/instance@REALM"
-msgstr ""
+msgstr "Kerberos ilkesi, örn: birincil/benzeri@ERİŞİM ALANI"
 
 #: directoryservice/models.py:586
 msgid "Keytab"
@@ -10397,19 +10405,19 @@ msgstr "Sertifika İmzalama İsteği oluştur"
 
 #: choices.py:823
 msgid "512"
-msgstr ""
+msgstr "512"
 
 #: choices.py:824
 msgid "1024"
-msgstr ""
+msgstr "1024"
 
 #: choices.py:825
 msgid "2048"
-msgstr ""
+msgstr "2048"
 
 #: choices.py:826
 msgid "4096"
-msgstr ""
+msgstr "4096"
 
 #: choices.py:830
 msgid "SHA1"
@@ -10522,6 +10530,9 @@ msgid ""
 "This is the port at which WebDAV will run on.<br />Do not use a port that is "
 "already in use by another service (e.g. 22 for SSH)."
 msgstr ""
+"Bu, WebDAV'ın üzerinde çalışacağı bağlantı noktasıdır.<br />Başka bir hizmet "
+"tarafından zaten kullanımda olan bir bağlantı noktasını kullanmayın (örn. "
+"SSH için 22)."
 
 #: services/models.py:1736
 msgid "HTTPS Port"
@@ -10532,6 +10543,9 @@ msgid ""
 "This is the port at which Secure WebDAV will run on.<br />Do not use a port "
 "that is already in use by another service (e.g. 22 for SSH)."
 msgstr ""
+"Bu, Güvenli WebDAV'ın üzerinde çalışacağı bağlantı noktasıdır.<br />Başka "
+"bir hizmet tarafından zaten kullanımda olan bir bağlantı noktasını "
+"kullanmayın (örn. SSH için 22)."
 
 # "password"un  karşılığı, şifre yani bir şeyi şifrelemek için kullanılan nesnesin sıfatı değildir. Orada sorulan, "geçiş kodu"  yani paroladır. Ordudaki parola işaret gibi. SÜrekli yanlış kullanılıyor bu yanlışı devam ettirmemek gerek. Hem Türkçe karşılığı ve hemde işlevsel ve mantıksal anlamı poroladır, şifre değil.
 #: services/models.py:1745
@@ -10552,6 +10566,10 @@ msgid ""
 "over the network as plaintext (Avoid if HTTPS is disabled)<br />Digest Auth: "
 "Hash of the password is sent over the network (more secure)"
 msgstr ""
+"WebDAV için HTTP Kimlik Doğrulaması türü<br />Temel Kimlik Doğrulaması: "
+"Parola ağ üzerinden düz metin olarak gönderilir (Eğer HTTPS "
+"etkisizleştirilirse kaçının)<br />Özet Kimlik Doğrulaması: Parolanın "
+"adreslemesi ağ üzerinden gönderilir (daha güvenli)"
 
 #: services/models.py:1761
 #: services/models.py:1762
@@ -10569,6 +10587,8 @@ msgid ""
 "This will be used to access your WebDAV share.<br />For e.g. http(s)://ip-of-"
 "freenas-machine:webdav_port/this_path_name"
 msgstr ""
+"Bu, WebDAV paylaşımınıza erişmek için kullanılacaktır.<br />Örneğin http(s"
+")://freenas-makinesi-ipsi:webdav_b_noktası/bu_yol_adı"
 
 #: sharing/models.py:357
 msgid "Change User & Group Ownership"
@@ -10685,7 +10705,7 @@ msgstr "Sonraki Sertifika için seri no"
 #: system/forms.py:2282
 #: system/forms.py:2398
 msgid "Key Length"
-msgstr ""
+msgstr "Anahtar Uzunluğu"
 
 #: system/forms.py:2003
 #: system/forms.py:2095
@@ -10870,7 +10890,7 @@ msgstr "Anlık Görüntüler"
 
 #: templates/system/upgrade.html:22
 msgid "You're about to upgrade. The following packages will be changed:"
-msgstr ""
+msgstr "Yükseltmek üzeresiniz. Aşağıdaki paketler değiştirilecektir:"
 
 #: templates/system/upgrade.html:24
 msgid "Are you sure you want to continue?"
@@ -10883,7 +10903,7 @@ msgstr "Mevcut güncellemeler yok"
 #: templates/system/upgrade_edit.html:7
 #: templates/system/upgrade_edit.html:9
 msgid "Check for Updates"
-msgstr ""
+msgstr "Güncellemeleri Kontrol Et"
 
 #: templates/system/certificate_datagrid.html:4
 msgid "Import Certificate"
@@ -10943,6 +10963,8 @@ msgid ""
 "IP address(es) to bind to. If none specified, allavailable interfaces that "
 "are up will be listened on."
 msgstr ""
+"Bağlanması için IP adres(leri)i. Eğer hiçbiri belirtilmediyse, tüm "
+"kullanılabilir açık olan arayüzler dinlenecektir."
 
 #: storage/nav.py:56
 #: templates/storage/volume_datagrid.html:17
@@ -10998,17 +11020,19 @@ msgstr ""
 
 #: storage/forms.py:1964
 msgid "Only one replication allowed per dataset."
-msgstr ""
+msgstr "Veri kümesi başına sadece bir çoğaltmaya izin verilir."
 
 #: storage/forms.py:1973
 msgid ""
 "Only one replication allowed per dataset, including parent dataset set up "
 "recursively."
 msgstr ""
+"Veri kümesi başına sadece bir çoğaltmaya izin verilir, tekrar tekrar kurulan "
+"ana veri kümesi dahil."
 
 #: system/forms.py:1889
 msgid "Trains"
-msgstr ""
+msgstr "Çalışmalar"
 
 #: storage/admin.py:375
 msgid "Edit zvol"
@@ -11127,6 +11151,8 @@ msgid ""
 "Check this if the remotepath specified does<br>not exist, and you want to "
 "create it."
 msgstr ""
+"Eğer belirtilmiş uzak yol mevcut değilse ve<br>oluşturmak istiyorsanız, bunu "
+"işaretleyin."
 
 #: tasks/forms.py:263
 msgid ""
@@ -11137,6 +11163,12 @@ msgid ""
 "to<br>255. Or it could also be that your SSH credentials (remote host,etc) "
 "are wrong."
 msgstr ""
+"Belirttiğiniz Uzak Yol mevcut değil veya bir dizin değil.<br>Ya kendiniz "
+"uzak makinede bir tane oluşturun ya da <br>'rsync_create'<br> alanını "
+"kontrol edin. **Not**: Bu ayrıca uzak yola girilen 255 karakteri aşarsa "
+"ve<br>kesilmişse olabilir, lütfen bunu 255 karaktere kısıtlayın. Veya aynı "
+"zamanda<br>bu SSH kimlik bilgilerinizin (uzak anamakine, vb) yanlış "
+"olmasından da olabilir."
 
 #: directoryservice/models.py:857
 msgid "SASL wrapping"
@@ -11177,7 +11209,7 @@ msgstr "Şu Anki Çalışma"
 
 #: system/forms.py:1930
 msgid "Train"
-msgstr ""
+msgstr "Çalışma"
 
 #: system/forms.py:1993
 #: system/forms.py:2378
@@ -11231,11 +11263,11 @@ msgstr "Aşağıdaki paketler değiştirilecektir:"
 
 #: templates/system/update_select.html:13
 msgid "Choose which train you would like to check for updates"
-msgstr ""
+msgstr "Hangi çalışmanın güncellemelerini kontrol etmek istediğinizi seçin"
 
 #: templates/system/update_select.html:20
 msgid "Check For Update"
-msgstr ""
+msgstr "Güncellemeleri Kontrol Et"
 
 #: common/system.py:301
 msgid "Unmount Failed (%(retcode)s) -> %(output)s"
@@ -11268,11 +11300,11 @@ msgstr "iSNS Sunucuları"
 
 #: services/models.py:444
 msgid "Pool Available Size Threshold (%)"
-msgstr ""
+msgstr "Havuz Kullanılabilir Boyut Eşiği (%)"
 
 #: services/models.py:488
 msgid " Available Size Threshold (%)"
-msgstr ""
+msgstr " Kullanılabilir Boyut Eşiği (%)"
 
 #: services/models.py:1736
 msgid ""
@@ -11298,6 +11330,10 @@ msgid ""
 "the network as plaintext (Avoid if HTTPS is disabled)<br>Digest Auth: Hash "
 "of the password is sent over the network (more secure)"
 msgstr ""
+"WebDAV için HTTP Kimlik Doğrulaması türü<br>Temel Kimlik Doğrulaması: Parola "
+"ağ üzerinden düz metin olarak gönderilir (Eğer HTTPS etkisizleştirilirse "
+"kaçının)<br>Özet Kimlik Doğrulaması: Parolanın adreslemesi ağ üzerinden "
+"gönderilir (daha güvenli)"
 
 #: services/models.py:1767
 msgid "Webdav SSL Certificate"
@@ -11369,7 +11405,7 @@ msgstr ""
 #: system/forms.py:1618
 msgid "Backups (RAID Z2: Good Reliability, Medium Performance, Medium Storage)"
 msgstr ""
-"Yedeklemeler (RAID Z2: İyi Güvenilirlik, Orta Performans, En Az Depolama)"
+"Yedeklemeler (RAID Z2: İyi Güvenilirlik, Orta Performans, Orta Depolama)"
 
 #: system/forms.py:1622
 msgid "Media (RAID Z1: Medium Reliability, Good Performance, More Storage)"
@@ -11377,7 +11413,8 @@ msgstr "Ortam (RAID Z1: Orta Güvenilirlik, İyi Performans, Daha Fazla Depolama
 
 #: system/forms.py:1626
 msgid "Logs (RAID 0: No Reliability, Best Performance, Maximum Storage)"
-msgstr "Günlükler (RAID 0: Güvenilirlik Yok, İyi Performans, En Fazla Depolama)"
+msgstr ""
+"Günlükler (RAID 0: Güvenilirlik Yok, En İyi Performans, En Fazla Depolama)"
 
 #: system/forms.py:2752
 msgid "Datastore not found in the server."
@@ -11392,6 +11429,8 @@ msgid ""
 "Username on the above VMWare host with enough privileges to snapshot virtual "
 "machines."
 msgstr ""
+"Yukarıdaki yeterli yetkileri olan VMWare anamakinesinin sanal makinelerin "
+"anlık görüntüsünü almak için kullanıcı adı."
 
 #: system/models.py:907
 msgid "ZFS Filesystem"
@@ -11403,7 +11442,7 @@ msgstr "Veri Deposu"
 
 #: system/models.py:914
 msgid "The datastore on the VMWare side that the filesystem corresponds to."
-msgstr ""
+msgstr "Dosya sisteminin karşılık geldiği VMWare tarafındaki veri deposu."
 
 #: system/models.py:920
 #: templates/system/index.html:33
@@ -11605,6 +11644,8 @@ msgid ""
 "Are you sure you want to continue? The system will be rebooted after updates "
 "are applied."
 msgstr ""
+"Devam etmek istediğinize emin misiniz? Güncellemeler uygulandıktan sonra "
+"sistem yeniden başlatılacaktır."
 
 #: templates/system/update_check.html:32
 msgid "The system will reboot"
@@ -11928,11 +11969,11 @@ msgstr "iSCSI Grupları"
 
 #: services/models.py:960
 msgid "Fiber Channel Target"
-msgstr ""
+msgstr "Fiber Kanal Hedefi"
 
 #: services/models.py:961
 msgid "Fiber Channel Targets"
-msgstr ""
+msgstr "Fiber Kanal Hedefleri"
 
 #: services/models.py:978
 msgid ""
@@ -12100,6 +12141,8 @@ msgid ""
 "Do not snapshot the system dataset. This is useful when replicating the root "
 "of a pool to the root of a pool of another FreeNAS system."
 msgstr ""
+"Veri kümesinin anlık görüntüsünü almayın. Bu, bir havuzun kökü başka bir "
+"FreeNAS sisteminin havuzunun köküne çoğaltılırken faydalıdır."
 
 #: storage/models.py:1125
 msgid ""
@@ -12308,11 +12351,11 @@ msgstr "%s lisansı çözülemiyor"
 
 #: system/alertmods/license_expired.py:31
 msgid "Your %s license has expired"
-msgstr ""
+msgstr "%s lisansınızın süresi doldu"
 
 #: system/alertmods/license_expired.py:36
 msgid "Your %(sw_name)s license is going to expire in %(date)s"
-msgstr ""
+msgstr "%(sw_name)s lisansınızın süresi %(date)s içinde dolacak"
 
 #: system/alertmods/upgrade_failed.py:19
 msgid "Update failed. Check /data/update.failed for further details."
@@ -12370,7 +12413,7 @@ msgstr "ZFS"
 
 #: templates/services/iscsi.html:45
 msgid "Fiber Channel Ports"
-msgstr ""
+msgstr "Fiber Kanal B.Noktaları"
 
 #: templates/sharing/index.html:27
 msgid "Block"
@@ -12538,6 +12581,10 @@ msgid ""
 "Changelog:\n"
 "%(changelog)s\n"
 msgstr ""
+"%(train)s çalışması için yeni bir güncelleme mevcut.\n"
+"\n"
+"Değişiklikler:\n"
+"%(changelog)s\n"
 
 #: account/models.py:151
 msgid "This disables all forms of password login, including for sharing."
@@ -12646,6 +12693,8 @@ msgid ""
 "Firmware version %(fwversion)s does not match driver version %(drversion)s "
 "for /dev/mpr%(mpr)s"
 msgstr ""
+"Aygıt yazılımı sürümü %(fwversion)s, /dev/mpr%(mpr)s için sürücü sürümü "
+"%(drversion)s ile eşleşmiyor"
 
 #: network/forms.py:320
 #: network/forms.py:324
@@ -12734,15 +12783,15 @@ msgstr "vCenter Eklenti Yapılandırması"
 
 #: vcp/views.py:53
 msgid "vCenter plugin installed successfully."
-msgstr ""
+msgstr "vCenter eklentisi başarılı olarak yüklendi."
 
 #: vcp/views.py:75
 msgid "vCenter plugin upgraded successfully."
-msgstr ""
+msgstr "vCenter eklentisi başarılı olarak yükseltildi."
 
 #: vcp/views.py:84
 msgid "vCenter plugin uninstalled successfully."
-msgstr ""
+msgstr "vCenter eklentisi başarılı olarak kaldırıldı."
 
 #: network/forms.py:280
 msgid "One interface must be marked critical for failover."
@@ -12791,6 +12840,8 @@ msgid ""
 "Delete snapshots that are no longer available locally after successful "
 "replication of new snapshots"
 msgstr ""
+"Yeni anlık görüntülerin başarılı çoğaltılmasından sonra artık yerel olarak "
+"mevcut olmayan anlık görüntüleri silin"
 
 #: storage/models.py:910
 msgid "Delete stale snapshots on remote system"
@@ -12802,7 +12853,7 @@ msgstr "Yükseltme gerekli değil"
 
 #: vcp/views.py:126
 msgid "vCenter plugin is repaired successfully"
-msgstr ""
+msgstr "vCenter eklentisi başarılı olarak onarıldı"
 
 #: vcp/models.py:61
 msgid "An integer from 1 - 65535, generally will be 443"
@@ -12830,7 +12881,7 @@ msgstr ""
 
 #: templates/vcp/index.html:28
 msgid "Enable Vcenter Plugin over https:"
-msgstr ""
+msgstr "vCenter Eklentisini https üzerinden etkinleştir:"
 
 #: templates/vcp/index.html:41
 msgid "Edit vCenter Auxiliary Settings"
@@ -12838,7 +12889,7 @@ msgstr "vCenter Yardımcı Ayarlarını Düzenle"
 
 #: vcp/models.py:93
 msgid "Enable Vcenter Plugin over https"
-msgstr ""
+msgstr "vCenter Eklentisini https üzerinden etkinleştir"
 
 #: vcp/models.py:97
 #: vcp/models.py:98
@@ -12930,7 +12981,7 @@ msgstr ""
 
 #: system/forms.py:2219
 msgid "Something is seriously jacked up."
-msgstr ""
+msgstr "Bir şey gerçekten karışmış durumda."
 
 #: system/forms.py:2228
 msgid "Not a valid certificate."
@@ -12963,6 +13014,8 @@ msgid ""
 "This option ignores the group membership sent on the wire by the NFS client "
 "and looks up the group membership on the server."
 msgstr ""
+"Bu seçenek, NFS istemcisi tarafından kablo üzerinden gönderilmiş grup "
+"üyeliklerini ve sunucudaki grup üyeliklerini aramayı yoksayar."
 
 #: services/models.py:1576
 msgid "Bind Interfaces"
@@ -13029,6 +13082,11 @@ msgid ""
 "that is preventing the machine from binding to the domain, you will not be "
 "able to set permissions using the GUI with this turned on."
 msgstr ""
+"Eğer Active Directory kullancıları ve gruplarının önbelleklenmesini "
+"etkisizleştirmek istiyorsanız bunu ayarlayın. UYARI: Sadece, makinenin etki "
+"alanına bağlanmasını önleyen büyük miktarda kullanıcı ve gruplara sahipseniz "
+"bu seçeneği kullanın, bunun açılması ile izinleri GKA kullanarak "
+"ayarlayamayacaksınız."
 
 #: network/forms.py:385
 msgid "You are not allowed to delete interfaces while failover is enabled."
@@ -13345,3 +13403,65 @@ msgstr ""
 "Komut sunucuyu kapatmak için kullanılır. Kapatmadan önce diğer görevleri "
 "yapmak için burada özel bir komut kullanabilirsiniz. Varsayılan: /sbin/"
 "shutdown -p now"
+
+#: account/forms.py:500
+msgid ""
+"Passwords containing a question mark (?) are currently not allowed due to "
+"problems with CIFS."
+msgstr ""
+"Soru işareti (?) içeren parolalara, şimdilik CIFS ile olan sorunlardan "
+"dolayı izin verilmiyor."
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "CIFS hizmetini yeniden yükleme başarısız oldu."
+
+#: services/models.py:179
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+"Bu uzantılar, simgesel bağlantılar, sabit bağlatılar, vb. gibi özellikleri "
+"destekleyerek UNIX CIFS istemcilerinin daha iyi hizmet etmesi için Samba'yı "
+"etkinleştirir."
+
+#: services/models.py:208
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+"Avahi aracılığıyla sıfır yapılandırma desteği, Windows'taki Bilgisayar "
+"Tarayıcısı hizmetine benzer, sistem üzerinde CIFS paylaşımlarını otomatik "
+"olarak keşfetmek için istemcilere (özellikle Mac OSX buluculara) izin verir."
+
+#: services/models.py:223
+#: services/models.py:224
+#: storage/forms.py:2039
+#: templates/services/core.html:15
+msgid "CIFS"
+msgstr "CIFS"
+
+#: services/forms.py:95
+msgid "Cannot disable CIFS while ActiveDirectory is in use."
+msgstr "Active Directory kullanımdayken CIFS etkisizleştirilemez."
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Windows (CIFS) Paylaşımı"
+
+#: sharing/models.py:95
+msgid "Windows (CIFS) Shares"
+msgstr "Windows (CIFS) Paylaşımları"
+
+#: services/views.py:269
+msgid "CIFS successfully updated."
+msgstr "CIFS başarılı olarak güncellendi."
+
+#: templates/services/core.html:21
+msgid "CIFS Settings"
+msgstr "CIFS Ayarları"
+
+#: templates/sharing/index.html:15
+msgid "Windows (CIFS)"
+msgstr "Windows (CIFS)"

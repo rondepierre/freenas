@@ -13518,3 +13518,83 @@ msgstr ""
 "De gebruikte opdracht voor het afsluiten van de server. U kunt hier een "
 "eigen opdracht gebruiken om voor shutdown.default: /sbin/shutdown -p now "
 "andere taken uit te voeren"
+
+#: account/forms.py:500
+msgid ""
+"Passwords containing a question mark (?) are currently not allowed due to "
+"problems with CIFS."
+msgstr ""
+"Wachtwoorden die een vraagteken (?) bevatten zijn momenteel niet toegestaan "
+"vanwege problemen met CIFS."
+
+#: services/forms.py:106
+msgid "The CIFS service failed to reload."
+msgstr "Opnieuw laden van de CIFS-service is mislukt."
+
+#: services/models.py:167
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+"Via deze extensies kan Samba UNIX CIFS-clients beter bedienen door functies "
+"als symbolische koppelingen, harde koppelingen etc. te ondersteunen."
+
+#: services/models.py:189
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+"Door ondersteuning van Zeroconf via Avahi kunnen clients (met name de Finder "
+"in Mac OSX) automatisch de CIFS-shares op het systeem detecteren, "
+"vergelijkbaar met de service Computer Browser in Windows."
+
+#: services/models.py:193
+#: services/models.py:194
+#: templates/services/core.html:26
+msgid "CIFS"
+msgstr "CIFS"
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Windows (CIFS)-share"
+
+#: sharing/models.py:95
+msgid "Windows (CIFS) Shares"
+msgstr "Windows (CIFS)-shares"
+
+#: services/forms.py:95
+msgid "Cannot disable CIFS while ActiveDirectory is in use."
+msgstr "Kan CIFS niet uitschakelen terwijl ActiveDirectory in gebruik is."
+
+#: services/views.py:269
+msgid "CIFS successfully updated."
+msgstr "CIFS met succes bijgewerkt."
+
+#: templates/services/core.html:32
+msgid "CIFS Settings"
+msgstr "CIFS-instellingen"
+
+#: templates/sharing/index.html:12
+msgid "Windows (CIFS)"
+msgstr "Windows (CIFS)"
+
+#: templates/sharing/windows.html:7
+msgid "There are no active Windows (CIFS) shares."
+msgstr "Er zijn geen actieve Windows (CIFS)-shares."
+
+#: templates/sharing/windows.html:33
+msgid "Edit Windows (CIFS) Share"
+msgstr "Windows (CIFS)-share bewerken"
+
+#: templates/sharing/windows.html:53
+#: templates/sharing/windows.html.py:55
+msgid "Replication Stream Compression"
+msgstr "Replicatiestroomcompressie"
+
+#: templates/sharing/windows.html:39
+msgid "Delete Windows (CIFS) Share"
+msgstr "Windows (CIFS)-share verwijderen"
+
+msgid "Add Apple (CIFS) Share"
+msgstr "Apple (CIFS)-share toevoegen"
